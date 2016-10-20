@@ -9,8 +9,8 @@
     <h1>The teams of LACKP</h1>
 
     <ul>
-      <% @team_names.each do |team_name| %>
-        <li><a href="/teams/<%= team_name %>"><%= team_name %></a></li>
+      <% @teams.each do |team_name| %>
+        <li><a href="/LACKP/teams/<%= team_name %>"><%= team_name %></a></li>
       <% end %>
     </ul>
   </body>
