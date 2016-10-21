@@ -1,5 +1,5 @@
+require 'pry'
 class TeamData
-
   ROLL_CALL =
   {
     "Simpson Slammers": {

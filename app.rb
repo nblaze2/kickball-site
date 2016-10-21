@@ -16,5 +16,6 @@ end
 
 get "/LACKP/teams/:team_name" do
   @team_name = params[:team_name]
+  @team_data = TeamData::ROLL_CALL[@team_name.to_sym]
   erb :team_page
 end
