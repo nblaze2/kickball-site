@@ -9,7 +9,6 @@ feature "view teams index" do
   # * [ ] When I visit /teams I should be able to see list of all the team names
 
   scenario "user visits /LACKP/teams path" do
-    binding.pry
     visit "/LACKP/teams"
     expect(page).to have_content("Simpson Slammers")
   end

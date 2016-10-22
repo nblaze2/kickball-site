@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Basic HTML Page</title>
-    <link rel="stylesheet" href="/app.css">
-  </head>
 
-  <body>
-    <h1>
-      Home of the <%= @team_name %>
-    </h1>
+  <h1>
+    Home of the <%= @team_name %>
+  </h1>
+  <div class="button-list">
     <ul>
       <% @team_data.each do |position, player| %>
         <li>
-          <%= position %>: <%= player %>
+          <button id="<%= player.to_s.downcase.gsub(" ", "_") %>"></button><a href="/LACKP/positions/<%= position %>"><%= position %></a> - <%= player %>
         </li>
       <% end %>
     </ul>
-    <a href="/LACKP/teams">Back to LACKP Team list</a>
-  </body>
-</html>
+  </div>
+  <a href="/LACKP/teams">Back to LACKP Team list</a>

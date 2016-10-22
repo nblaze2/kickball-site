@@ -1,0 +1,14 @@
+
+  <h1>
+    List of Players by Team that Play: <%= @position %>
+  </h1>
+  <div class="button-list">
+    <ul>
+      <% @players_by_position.each do |player, team| %>
+        <li>
+          <button id="<%= player.to_s.downcase.gsub(" ", "_") %>"></button><%= player %> - <a href="/LACKP/teams/<%= team %>"><%= team %></a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <a href="/LACKP/positions">Back to List of LACKP Positions</a>

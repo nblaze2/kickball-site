@@ -1,0 +1,12 @@
+
+  <h1>
+    List of Official Player Positions for a LACKP Team:
+  </h1>
+  <ul>
+    <% @positions.each do |position| %>
+      <li>
+        <a href="/LACKP/positions/<%= position %>"><%= position %></a>
+      </li>
+    <% end %>
+  </ul>
+  <a href="/LACKP">Back to LACKP Homepage</a>
