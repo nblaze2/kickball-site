@@ -9,7 +9,7 @@ class Player
     @team = team
   end
 
-  def all
+  def self.all
     @players_all = []
     @league_data = TeamData::ROLL_CALL
     @league_data.each_pair do |team_name, roster|

@@ -8,7 +8,7 @@ class TeamData
       "1st Base": "Marge Simpson",
       "2nd Base": "Lisa Simpson",
       "3rd Base": "Ned Flanders",
-      "Shortstop": "Barney Grumble",
+      "Shortstop": "Barney Gumble",
       "Right Field": "Monty Burns",
       "Center Field": "Waylon Smithers",
       "Left Field": "Clancy Wiggum"

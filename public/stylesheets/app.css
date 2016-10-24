@@ -28,3 +28,83 @@ div ul {
   width: 50px;
   margin-right: 10px;
 }
+
+#homer_simpson {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "http://cartoonbros.com/wp-content/uploads/2016/08/homer-simpson-4-768x1008.jpg");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#marge_simpson {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#lisa_simpson {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#ned_flanders {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "https://upload.wikimedia.org/wikipedia/en/8/84/Ned_Flanders.png");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#barney_gumble {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "https://upload.wikimedia.org/wikipedia/en/d/de/Barney_Gumble.png");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#monty_burns {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "http://images.forbes.com/media/lists/fictional/2011/c-montgomery-burns_197x282.jpg");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#waylon_smithers {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "https://upload.wikimedia.org/wikipedia/en/8/86/Waylon_Smithers_1.png");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+#clancy_wiggum {
+  border-radius: 25px;
+  padding: 20px;
+  background-image: url( "https://upload.wikimedia.org/wikipedia/en/7/7a/Chief_Wiggum.png");
+  background-size: 50px 80px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
