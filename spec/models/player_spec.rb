@@ -38,8 +38,8 @@ RSpec.describe Player do
 
   describe "#all" do
     it "returns an array of all the player objects" do
-      expect(self.all).to be_a(Array)
-      expect(self.all.first).to be_a(Player)
+      expect(Player.all).to be_a(Array)
+      expect(Player.all.first).to be_a(Player)
     end
   end
 end

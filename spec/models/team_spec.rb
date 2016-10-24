@@ -18,8 +18,8 @@ RSpec.describe Team do
 
   describe "#all" do
     it "returns an array of all the player objects" do
-      expect(all).to be_a(Array)
-      expect(all.first).to be_a(Team)
+      expect(Team.all).to be_a(Array)
+      expect(Team.all.first).to be_a(Team)
     end
   end
 

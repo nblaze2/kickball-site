@@ -14,7 +14,6 @@ class Team
       @teams_all << Team.new(team_name)
     end
     @teams_all
-    binding.pry
   end
 
   def players
